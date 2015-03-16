@@ -54,7 +54,7 @@ public class MyClassTestFile {
 		
 		assertTrue("If this message shows, num1 + num2 != correctSum", correctSum == MyClass.AddTwoNumbers(num1,  num2));
 		
-		assertTrue("If this message shows, falsenum1 + falsenum2 == falseSum", falseSum == d.AddTwoNumbers(falsenum1,  falsenum2)) ;
+		assertTrue("If this message shows, falsenum1 + falsenum2 do not equal falseSum", falseSum == d.AddTwoNumbers(falsenum1,  falsenum2)) ;
 		
 		
 		
