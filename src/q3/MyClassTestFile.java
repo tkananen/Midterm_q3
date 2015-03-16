@@ -1,7 +1,6 @@
 package q3;
 
 import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -35,7 +34,7 @@ public class MyClassTestFile {
 		assertTrue("If this message shows, return true does not return true", c.ReturnTrue());
 		
 		
-		assertFalse("If this message shows, ReturnTrue does not equal False", c.ReturnTrue());
+		assertFalse("If this message shows, ReturnTrue does not return False", c.ReturnTrue());
 		
 		
 		
@@ -43,7 +42,6 @@ public class MyClassTestFile {
 	@Test
 	public   void utReturnAddTwoNumbers(){
 		MyClass d = new MyClass();
-		
 		int correctSum = 5;
 		int num1 = 2;
 		int num2 = 3;
